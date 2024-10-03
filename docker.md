@@ -158,7 +158,7 @@ sudo docker volume rm my_data
 `
 
 # Mounting Volumes to Containers
-Need to stop the running containers first then create a new image from it, then mount the volume
+Need to stop the running containers first then create a new image from it, mount the volume at the same time
 
 `
 sudo docker stop <container_name_or_id>
